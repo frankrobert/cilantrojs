@@ -8,14 +8,13 @@
     "email": "frankie.robert@gmail.com"
   },
   "contributors": ["Frank Robert <frankie.robert@gmail.com> ()"],
-  "dependencies": {},
-  "ava": {
-    "failFast": true,
-    "verbose": true
+  "dependencies": {
+    "split2": "^2.2.0",
+    "through2": "^2.0.3"
   },
   "devDependencies": {
     "auto-bind": "^1.1.0",
-    "ava": "^0.22.0",
+    "chalk": "^2.3.0",
     "codecov": "^2.3.0",
     "cross-env": "^5.0.5",
     "eslint": "^4.5.0",
@@ -43,13 +42,6 @@
     "*.md": ["remark . -qfo", "git add"]
   },
   "main": "index.js",
-  "nyc": {
-    "check-coverage": true,
-    "lines": 100,
-    "functions": 100,
-    "branches": 100,
-    "reporter": ["lcov", "html", "text"]
-  },
   "remarkConfig": {
     "plugins": ["preset-github"]
   },
@@ -58,11 +50,8 @@
     "url": "https://github.com/frankrobert/cilantrojs"
   },
   "scripts": {
-    "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
     "lint": "xo && remark . -qfo",
-    "precommit": "lint-staged && npm test",
-    "test": "npm run lint && npm run test-coverage",
-    "test-coverage": "cross-env NODE_ENV=test nyc ava"
+    "precommit": "lint-staged"
   },
   "xo": {
     "extends": "prettier",

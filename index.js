@@ -1,15 +1,8 @@
-const autoBind = require('auto-bind');
+/*!
+ * Cilantro
+ * MIT Licensed
+ */
 
-class Script {
-  constructor(config) {
-    config = Object.assign({}, config);
-    this._name = config.name || 'script';
+'use strict';
 
-    autoBind(this);
-  }
-  renderName() {
-    return this._name;
-  }
-}
-
-module.exports = Script;
+module.exports = require('./lib/cilantro');
