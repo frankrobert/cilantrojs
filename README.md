@@ -34,10 +34,10 @@ yarn add cilantrojs
 ## Usage
 
 ```js
-const cilantro = require('cilantrojs');
+import cilantro from 'cilantro';
 
 
-cilantro('input-path', 'output-path').csvToJson();
+cilantro('input-path', 'output-path').transform('csv', 'json');
 ```
 
 
