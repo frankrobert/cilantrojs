@@ -5,4 +5,8 @@
 
 'use strict';
 
-module.exports = require('./lib/cilantro');
+import { cilantro, transform } from './lib/cilantro.js';
+
+cilantro.transform = transform;
+
+export default cilantro;
