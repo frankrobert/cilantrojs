@@ -1,6 +1,6 @@
 import cilantro from '../../index';
 
-const input = '/examples/csv-data';
-const output = '/examples/csv-data';
+const input = 'examples/csv-data';
+const output = 'examples/csv-data';
 
-cilantro(input, output).transform('csv', 'json');
+cilantro({ input, output }).transform('csv', 'json');
