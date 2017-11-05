@@ -5,6 +5,6 @@
 
 'use strict';
 
-import cilantro from './lib/cilantro.js';
+import cilantro from './lib/cilantro';
 
 export default cilantro;
