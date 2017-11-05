@@ -12,6 +12,7 @@
 
 * [Install](#install)
 * [Usage](#usage)
+* [Supported Transforms](#supported-transforms)
 * [Contributors](#contributors)
 * [License](#license)
 
@@ -36,9 +37,15 @@ yarn add cilantrojs
 ```js
 import cilantro from 'cilantro';
 
-
-cilantro('input-path', 'output-path').transform('csv', 'json');
+cilantro('examples/csv-data', 'examples/csv-data').transform('csv', 'json');
 ```
+
+
+## Supported Transforms
+
+| From   |    To   |
+| ------ | :-----: |
+| `.csv` | `.json` |
 
 
 ## Contributors
