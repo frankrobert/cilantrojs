@@ -39,9 +39,12 @@ yarn add cilantrojs
 ## Usage
 
 ```js
-import cilantro from 'cilantro';
+import cilantro from 'cilantrojs';
 
-cilantro('examples/csv-data', 'examples/csv-data').transform('csv', 'json');
+const input = 'examples/csv-data';
+const output = 'examples/csv-data';
+
+cilantro({ input, output }).transform('csv', 'json');
 ```
 
 
