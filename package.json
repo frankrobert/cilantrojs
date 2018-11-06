@@ -10,7 +10,7 @@
   "contributors": ["Frank Robert <frankie.robert@gmail.com> ()"],
   "dependencies": {
     "split2": "^2.2.0",
-    "through2": "^2.0.3"
+    "through2": "^3.0.0"
   },
   "devDependencies": {
     "auto-bind": "^1.1.0",
