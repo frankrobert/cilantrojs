@@ -9,7 +9,7 @@
   },
   "contributors": ["Frank Robert <frankie.robert@gmail.com> ()"],
   "dependencies": {
-    "split2": "^2.2.0",
+    "split2": "^3.1.0",
     "through2": "^2.0.3"
   },
   "devDependencies": {
