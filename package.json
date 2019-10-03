@@ -13,7 +13,7 @@
     "through2": "^2.0.3"
   },
   "devDependencies": {
-    "auto-bind": "^1.1.0",
+    "auto-bind": "^2.1.1",
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "chalk": "^2.3.0",
