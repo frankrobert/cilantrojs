@@ -25,7 +25,7 @@
     "husky": "^0.14.3",
     "lint-staged": "^5.0.0",
     "nyc": "^11.3.0",
-    "prettier": "^1.6.1",
+    "prettier": "^2.0.1",
     "remark-cli": "^4.0.0",
     "remark-preset-github": "^0.0.7",
     "xo": "^0.19.0"
