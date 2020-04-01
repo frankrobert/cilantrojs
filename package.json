@@ -27,7 +27,7 @@
     "nyc": "^11.3.0",
     "prettier": "^1.6.1",
     "remark-cli": "^4.0.0",
-    "remark-preset-github": "^0.0.7",
+    "remark-preset-github": "^1.0.0",
     "xo": "^0.19.0"
   },
   "engines": {
